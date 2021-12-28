@@ -1,0 +1,58 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+.app-title {
+  font-family: 'Montserrat', sans-serif;
+  color: #FF5403;
+  margin: 0;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+p {
+  line-height: 1.5;
+  text-align: center;
+  color: #212121;
+  padding-top: 3%;
+  margin: 25px;
+  letter-spacing: 1px;
+}
+
+.search-form {
+  min-height: 30vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  outline: none !important;
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  font-family: 'Montserrat', sans-serif;
+  background: #F3950D;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  color: white;
+}
+
+.search-button:hover {
+  opacity: 1;
+  transition: 0.3s;
+  background-color: #FFAB4C;
+}
+
+.recipe {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}

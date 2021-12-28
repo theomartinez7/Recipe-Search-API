@@ -1,0 +1,47 @@
+.recipe {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.9;
+    width: 50%;
+    margin: 20px;
+    background-color: white;
+    box-shadow: 20px 20px rgba(0,0,0,.15);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: left;
+
+}
+
+h1 {
+    color: #FF5403;
+}
+
+ol {
+    color: #212121;
+}
+
+p {
+    color: #212121;
+}
+  
+
+.image {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+    }
+
+
+    .image {
+        width: 40%;
+        height: auto;
+    }
+}
